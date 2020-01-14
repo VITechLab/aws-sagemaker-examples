@@ -21,7 +21,7 @@ with open('data/sample_image.jpg', 'rb') as img:
 
 Also we've published two notebooks showing how to use our model:
 * [Using-Laboratory-Personal-Protection-Equipment-Detector-Endpoint.ipynb](Using-Laboratory-Personal-Protection-Equipment-Detector-Endpoint.ipynb) notebook shows how you can use Python API to perform inference on endpoint created from the model
-* [Using-Laboratory-Personal-Protection-Equipment-Detection-model.ipynb](Using-Laboratory-Personal-Protection-Equipment-Detector-Endpoint.ipynb) notebook shows how you can use Python API to run the full scenario:
+* [Using-Laboratory-Personal-Protection-Equipment-Detection-model.ipynb](Using-Laboratory-Personal-Protection-Equipment-Detection-model.ipynb) notebook shows how you can use Python API to run the full scenario:
     * deploy our model to create an endpoint
     * run Real Time inference on endpoint using local image
     * visualize  and save the prediction on original image
