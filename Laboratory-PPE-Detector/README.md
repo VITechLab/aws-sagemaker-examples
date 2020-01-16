@@ -1,5 +1,5 @@
 # PPE Detector for Laboratory Safety
-[The PPE Detector for Laboratory Safety](https://aws.amazon.com/marketplace/pp/prodview-6gvzwuebead3o) - is a real-time computer vision model for PPE non-compliance detection in the laboratory setting. It analyzes live footage from high-resolution cameras to identify people missing any of the PPE items specified in safety regulations. The solution detects four object classes: Coat, Glasses, Glove, Mask. The ML model can be used in schools and universities, industry, government, military facilities, and other laboratories.
+[The PPE Detector for Laboratory Safety](https://aws.amazon.com/marketplace/pp/prodview-6gvzwuebead3o) - is a real-time computer vision model for identifying safety breaches and ensuring quality control policies in a laboratory or healthcare facilities. Trained on dataset manually selected and annotated by VITechLab team. It works with live footage from CCTV cameras and detects people not wearing any of four objects: Coat, Glasses, Glove, Mask. The ML model can be used in schools and universities, industry, government, military facilities, and other laboratories.
 
 [![AWS Marketplace](AWS-Marketplace.png)](https://aws.amazon.com/marketplace/pp/prodview-6gvzwuebead3o)
 
