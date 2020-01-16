@@ -1,7 +1,10 @@
 # PPE Detector for Laboratory Safety
-[The PPE Detector for Laboratory Safety](https://aws.amazon.com/marketplace/pp/prodview-b53upp27dnmzq) - is a real-time computer vision model for identifying safety breaches and ensuring quality control policies in a laboratory or healthcare facilities. It is trained on the dataset manually selected and annotated by the VITechLab team. It works with live footage from CCTV cameras and detects people not wearing any of four objects: Coat, Glasses, Glove, Mask. The ML model can be used in schools and universities, industry, government, military facilities, and other laboratories where safety rules and regulations should be strictly followed.
 
-[![AWS Marketplace](AWS-Marketplace.png)](https://aws.amazon.com/marketplace/pp/prodview-b53upp27dnmzq)
+![PPE Detector for Laboratory Safety output example](sample_data/demo_output_images/image2.jpg?raw=true)
+
+[The PPE Detector for Laboratory Safety](https://aws.amazon.com/marketplace/pp/prodview-b53upp27dnmzq) - is a real-time computer vision model for identifying safety breaches and ensuring quality control policies in a laboratory or healthcare facilities. It is trained on the dataset manually selected and annotated by the VITechLab team. It works with live footage from CCTV cameras and detects people not wearing any of four objects: Coat, Glasses, Glove, Mask. The ML model can be used in schools and universities, industry, government, military facilities, and other laboratories where safety rules and regulations should be strictly followed. This AI-based pre-packed solution is available for a subscription now.
+
+### Are you looking to kick off an ML-driven worker safety initiative at your enterprise? [Contact us](https://vitechlab.com/) for details — we're now looking for pilot project teams to test the solution and will be happy to cooperate.
 
 ## Usage Information
 
@@ -36,8 +39,6 @@ Also we've published two notebooks showing how to use our model:
 ## Sample detection results:
 
 ![PPE Detector for Laboratory Safety output example](sample_data/demo_output_images/image1.jpg?raw=true)
-
-![PPE Detector for Laboratory Safety output example](sample_data/demo_output_images/image2.jpg?raw=true)
 
 ![PPE Detector for Laboratory Safety output example](sample_data/demo_output_images/image3.jpg?raw=true)
 
