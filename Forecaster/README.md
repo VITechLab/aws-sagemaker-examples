@@ -2,7 +2,7 @@
 
 ![Retail Store Product Demand Forecasting output example](assets/forecast.png?raw=true)
 
-The Product Demand Forecasting Solution is a cloud-native predictive analytics ML model that analyzes multiple data points, including historical sales data, inventory data, and growth projections to generate up to 50% more accurate product demand forecasts. The solution is scalable and customizable, allows for manual adjustments. It supports batch (schedule) and real-time forecasting, and it can be integrated through RESTful API. The ML model can be used by small- and midsize retailers to cut overstock/stockouts, optimize inventory, and increase supply chain efficiency.
+[The Product Demand Forecasting Solution](https://aws.amazon.com/marketplace/pp/prodview-56fo5it4n5mqm) - is a cloud-native predictive analytics ML model that analyzes multiple data points, including historical sales data, inventory data, and growth projections to generate up to 50% more accurate product demand forecasts. The solution is scalable and customizable, allows for manual adjustments. It supports batch (schedule) and real-time forecasting, and it can be integrated through RESTful API. The ML model can be used by small- and midsize retailers to cut overstock/stockouts, optimize inventory, and increase supply chain efficiency.
 
 ## Usage Information
 
