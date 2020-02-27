@@ -81,14 +81,19 @@ def visualize_detection(img_file, detections, save_path=None):
     display(img)
 
 
-def predict_and_display(predictor, file_name, save_path=None):
+def predict_and_display(predictor, file_name, save_path=None, predict_params=None):
     global prediction_result
     
     with open(file_name, 'rb') as image:
         f = image.read()
         image_bytes = bytearray(f)
 
-    prediction_result = predictor.predict(image_bytes).decode("utf-8")
+    initial_args = None
+    
+    if predict_params:
+        initial_args = {'CustomAttributes': json.dumps(predict_params)}
+
+    prediction_result = predictor.predict(image_bytes, initial_args=initial_args).decode("utf-8")
     
     result = json.loads(prediction_result)
     
