@@ -24,9 +24,8 @@ REGION_ACCOUNT_MAP = {
 }
 
 MODEL_PACKAGE_ARN = (
-    "arn:aws:sagemaker:%s:%s:model-package/vitechlab-"
+    "arn:aws:sagemaker:%s:%s:model-package/vitechlab-ppe-bbb-model-v1-1-398bfa174f00cfad7e4af4bf76862eb6"
 )
-    
 
 box_color = '#e0e0e0'
 txt_box_color = '#e0e0e0b3'
@@ -54,10 +53,13 @@ def visualize_detection(img_file, detections, save_path=None):
 
 
     for info in detections:
+        classes = info['classes']
+        n_classes = len(classes)
+        
         xmin, ymin, xmax, ymax = np.array(info['box_points']) * ratio
         drawing.rectangle([xmin, ymin, xmax, ymax], outline=box_color, width=2)
 
-        text_bg_height = 80
+        text_bg_height = n_classes * 20
         text_bg_width = 130
             
         if ymin - text_bg_height < 0:
@@ -66,7 +68,7 @@ def visualize_detection(img_file, detections, save_path=None):
         drawing.rectangle([xmin, ymin - text_bg_height, xmin + text_bg_width, ymin], fill=txt_box_color)
 
         text_offset = -18
-        for lbl, conf in info['classes'].items():
+        for lbl, conf in classes.items():
             color = breach_color if conf > 50 else default_color
 
             drawing.text((xmin, ymin + text_offset),
