@@ -1,6 +1,6 @@
 # Diabetic retinopathy screening & classification
 
-![Diabetic retinopathy screening & classification output example](sample_data/level-0 \(f4df3d86688d\).png?raw=true)
+<img src="sample_data/level-0 (f4df3d86688d).png?raw=true" width="300" alt="Diabetic retinopathy screening & classification output example">
  
 [The Diabetic retinopathy screening & classification](https://aws.amazon.com/marketplace/pp/prodview-b53upp27dnmzq) - is an image analysis and anomaly detection model that identifies and classifies diabetic anomalies in eye screens. It scales eye screening and helps doctors detect signs of diabetic retinopathy. As all screens are ranked by severity, doctors can address urgent cases first, to diagnose faster and prevent sight loss. The model is trained on images from multiple clinics, including Aravind Eye Hospital (Kaggle dataset), using a variety of vision screening devices over an extended period of time. NB: The model is not FDA-compliant; for auxiliary/support use only.
 
