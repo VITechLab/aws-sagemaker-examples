@@ -3,7 +3,7 @@
 ![PPE Mask Detector output example](sample_data/demo_output_images/image1.jpg)
 _Image source: Getty Images_
 
-[PPE Mask Detector]() - is a real-time computer vision model for identifying safety breaches and ensuring quality control policies in a laboratory or healthcare facilities. It is trained on the dataset manually selected and annotated by the VITechLab team. It works with live footage from CCTV cameras and detects people not wearing any of four objects: Coat, Glasses, Glove, Mask. The ML model can be used in schools and universities, industry, government, military facilities, and other laboratories where safety rules and regulations should be strictly followed. This AI-based pre-packed solution is available for a subscription now.
+[PPE Mask Detector]() - is a real-time computer vision model for identifying safety breaches and ensuring epidemiological safety in laboratories, healthcare facilities, schools and universities, industrial companies, government, military facilities, etc. Trained on the dataset manually selected and annotated by VITech Lab team. It works with live footage from CCTV cameras and detects people not wearing masks. When a violation is detected, the algorithm automatically notifies a safety engineer. The ML model is developed to fit organizations' need to ensure visitors and employees wearing masks. 
 
 ### Are you looking to kick off an ML-driven worker safety initiative at your enterprise? [Contact us](https://vitechlab.com/) for details — we're now looking for pilot project teams to test the solution and will be happy to cooperate.
 
